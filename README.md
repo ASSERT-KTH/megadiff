@@ -1,0 +1,2 @@
+- each folder represents a diff size in changes lines
+- one unified diff file per commit (can diff over multiple files)
