@@ -17,5 +17,5 @@ If you use Megadiff, please cite the following technical report:
 ```
 
 Architecture
-- each folder represents a diff size in changes lines
+- each folder represents a diff size measured in changed lines
 - one unified diff file per commit (can diff over multiple files)
