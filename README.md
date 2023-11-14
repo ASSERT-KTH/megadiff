@@ -16,6 +16,18 @@ If you use Megadiff, please cite the following technical report:
 }
 ```
 
-Architecture
-- each folder represents a diff size measured in changed lines
-- one unified diff file per commit (can diff over multiple files)
+### Architecture
+
+- Each folder represents a diff size measured in changed lines
+- One unified diff file per commit (can diff over multiple files)
+
+
+### Benchmark Leakage
+
+Megadiff contains samples extracted from some projects contained in Defects4J.
+An analysis on single-function Megadiff and Defects4J samples shows that:
+- Math-28 and Math-44 fixed versions are included in Megadiff
+- Math-28, Math-44, and JacksonDatabind-82 functions (possibily after the bug-fix) are included in 5 Megadiff samples
+- Math-28, Closure-101, Closure-83, Closure-107, JacksonDatabind-58, JacksonDatabind-82, Math-44, Math-38, Gson-10 change the same file as some Megadiff samples
+
+Note that this analysis only looks at the functions changed, and does not regard other code
