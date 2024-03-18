@@ -21,6 +21,12 @@ If you use Megadiff, please cite the following technical report:
 - Each folder represents a diff size measured in changed lines
 - One unified diff file per commit (can diff over multiple files)
 
+Example usage:
+
+```
+xzcat ./8/ae49f3458915859104ebd1e0858a409e01291e6d.diff.xz
+```
+
 
 ### Benchmark Leakage
 
