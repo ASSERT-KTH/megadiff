@@ -27,6 +27,10 @@ Example usage:
 xzcat ./8/ae49f3458915859104ebd1e0858a409e01291e6d.diff.xz
 ```
 
+The datasets are also available on Huggingface:
+
+- <https://huggingface.co/datasets/ASSERT-KTH/megadiff>
+- <https://huggingface.co/datasets/ASSERT-KTH/megadiff-single-function>
 
 ### Benchmark Leakage
 
